@@ -15,3 +15,11 @@ on historical data.
 These calculations converge into an efficient Long-Short Equity trading
 strategy. The performance of the algorithm is evaluated using statistical methods involving
 returns plots, market beta, rolling plots and risk analysis. 
+
+### Finding Patterns in Daily Returns and Public Sentiment
+When exploring a dataset, we try to look for patterns that might serve as the basis for a
+trading strategy. The plot shown is figure below uses PsychSignal's Trader Mood dataset for
+Apple stocks which assigns bull and bear scores to stocks each day based on the aggregate
+public sentiment from messages posted on Stocktwits, a financial communications
+platform. The notebook regarding the same can be viewed [here](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/sentiment_intuition/SMA_tesla%20and%20apple.ipynb)
+[image]()
