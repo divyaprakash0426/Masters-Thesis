@@ -38,7 +38,7 @@ the strategy’s practicality and profitability on past data, validating it for 
 or any needed changes. The simulation is performed on the porfolio data for the time period
 starting from January 2017 to December 2109 with an initial investment of 1 million
 dollars.   
-Algorithm performance over benchmark index SPY ![](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/images/algo_performance.png)
+Algorithm performance over benchmark index SPY: ![](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/images/algo_performance.png)
 
 Refer to [report](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/report/report.pdf) for further details on backtest analysis, cumulative returns and risk exposure summary.
 
