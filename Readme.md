@@ -23,3 +23,19 @@ Apple stocks which assigns bull and bear scores to stocks each day based on the 
 public sentiment from messages posted on Stocktwits, a financial communications
 platform. The [notebook](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/sentiment_intuition/SMA_tesla%20and%20apple.ipynb) explaining the same can be viewed in the repo.  
 ![Plot of daily returns, message volume and sentiment score of Apple stocks.](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/images/sentiment_intuition.png)
+
+### Ranking Schema and Alpha
+The ranking schema considerers assets with a high 3 day average sentiment score as high
+value, and assets with a low 3 day average sentiment score as low value.  
+The algorithm uses Quantopian's open source factor analysis tool, Alphalens, to
+test the quality of the selection strategy. Alpha factors express a predictive relationship
+between some given set of information and future returns. By applying this relationship to
+multiple stocks we can hope to generate an alpha signal and trade off of it. Refer to this [notebook](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/strategy_development/long_short.ipynb) for detailed analysis.  
+
+### Results
+Backtesting simulation involves testing a trading strategy on historical data. It estimates
+the strategy’s practicality and profitability on past data, validating it for success or failure
+or any needed changes. The simulation is performed on the porfolio data for the time period
+starting from January 2017 to December 2109 with an initial investment of 1 million
+dollars. 
+
