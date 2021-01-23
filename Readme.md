@@ -21,5 +21,5 @@ When exploring a dataset, we try to look for patterns that might serve as the ba
 trading strategy. The plot shown is figure below uses PsychSignal's Trader Mood dataset for
 Apple stocks which assigns bull and bear scores to stocks each day based on the aggregate
 public sentiment from messages posted on Stocktwits, a financial communications
-platform. The notebook regarding the same can be viewed [here](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/sentiment_intuition/SMA_tesla%20and%20apple.ipynb)
-[image]()
+platform. The [notebook](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/sentiment_intuition/SMA_tesla%20and%20apple.ipynb) explaining the same can be viewed in the repo.  
+[Plot of daily returns, message volume and sentiment score of Apple stocks.](https://github.com/divyaprakash0426/Quantopian-Long-Short-Equity-Strategy/blob/master/images/sentiment_intuition.png)
